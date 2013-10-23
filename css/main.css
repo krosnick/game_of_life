@@ -1,0 +1,37 @@
+#title {
+	margin-left: 550px;
+}
+
+#display_container {
+	margin-left: 500px;
+}
+
+/* buttons div */
+#controls {
+	margin-left: 580px;
+}
+
+#instructions {
+	margin-left: 545px;
+}
+
+.black {
+	background-color: black;
+}
+
+.green {
+	background-color: green;
+}
+
+.cell {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+/* Note: .unselectable from https://developer.mozilla.org/en-US/docs/Web/CSS/user-select?redirectlocale=en-US&redirectslug=CSS/user-select */
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}

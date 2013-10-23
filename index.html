@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./js/jquery-1.10.2.js"></script>
+        <script src="./js/utilities.js"></script>
+        <script src="./js/board.js"></script>
+        <script src="./js/graphics.js"></script>
+        <script src="./js/canvas.js"></script>
+        <script src="./js/display.js"></script>
+        <script src="./js/game.js"></script>
+        <link href="css/main.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <div id="title">
+            <h1> Conway's Game of Life </h1>
+        </div>
+    <!--
+    define the HTML canvas element that will hold the graphical output
+    -->
+        <div>
+            <div id = "display_container" class = "unselectable">
+            </div>
+        </div>
+
+        <div id = "controls" >
+            <button type="button" id="clear_board"> Clear board </button>
+            <button type="button" id="play_pause"> Pause </button>
+            <button type="button" id="forward_step"> Take step forward </button>
+        </div>
+        
+        <div id="instructions">
+        </div>
+
+        <!--
+        execute the JavaScript
+        -->
+        <script src="./js/page.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
